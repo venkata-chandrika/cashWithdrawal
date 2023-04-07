@@ -1,0 +1,86 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@media screen and (max-width: 576px) {
+  .container {
+    justify-content: flex-start;
+  }
+}
+.card-container {
+  background-color: #150b3e;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  min-width: 350px;
+  max-width: 550px;
+  padding: 30px;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.middle {
+  display: flex;
+  justify-content: space-between;
+}
+.balance {
+  color: #382f5a;
+  font-size: 24px;
+  font-weight: bold;
+}
+.count {
+  margin-top: 0px;
+  color: #d4d2db;
+  font-weight: bold;
+  font-size: 42px;
+}
+.rupee {
+  margin-top: 0px;
+  font-size: 14px;
+  color: #585076;
+}
+.logo {
+  border-radius: 100%;
+  background-color: #c7d2fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 20px;
+}
+.heading {
+  color: #d4d2db;
+  font-size: 28px;
+  margin-left: 10px;
+  align-items: auto;
+}
+.withdraw {
+  color: #d4d2db;
+  font-weight: 500;
+  font-size: 32px;
+}
+.sub {
+  font-size: 24px;
+  font-weight: 500;
+  color: #382f5a;
+}
+.list-container {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: stretch;
+  flex-grow: equal;
+}

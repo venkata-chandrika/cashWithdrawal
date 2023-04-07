@@ -1,0 +1,20 @@
+/* Write your CSS here */
+/* 
+.list-container {
+  list-style-type: none;
+} */
+.button {
+  color: #d4d2db;
+  background-color: #382f5a;
+  border: 1px solid #c4c4c4;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  margin: 10px;
+  font-weight: 400;
+  font-size: 22px;
+}
