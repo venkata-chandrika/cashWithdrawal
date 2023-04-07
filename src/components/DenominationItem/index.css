@@ -1,8 +1,8 @@
 /* Write your CSS here */
-/* 
+
 .list-container {
-  list-style-type: none;
-} */
+  margin:20px;
+}
 .button {
   color: #d4d2db;
   background-color: #382f5a;
@@ -17,4 +17,5 @@
   margin: 10px;
   font-weight: 400;
   font-size: 22px;
+  width:100%;
 }
