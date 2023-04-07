@@ -33,8 +33,8 @@ class CashWithdrawal extends Component {
               <span className="rupee">In Rupees</span>
             </div>
           </div>
-          <h1 className="withdraw">Withdraw</h1>
-          <h1 className="sub">CHOOSE SUM (IN RUPEES)</h1>
+          <p className="withdraw">Withdraw</p>
+          <p className="sub">CHOOSE SUM (IN RUPEES)</p>
           <ul className="list-container">
             {denominationsList.map(each => (
               <DenominationItem
